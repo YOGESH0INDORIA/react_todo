@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.styleabout{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 107px;
+}
+
+.stylehead{
+  margin: 50px;
+  text-align: center;
+}
+
+.yogi{
+  padding-left: 50px;
+}
+
+.notodo{
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  
+}

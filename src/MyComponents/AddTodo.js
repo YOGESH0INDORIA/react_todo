@@ -3,21 +3,28 @@ import React, { useState } from 'react'
 const AddTodo = ({addTodo}) => {
     const [title, setTitle] = useState("");
     const [desc, setDesc] = useState("");
+    const[alert,setAlert] = useState(false);
 
     const submit = (e)=>{
         e.preventDefault();
         if(!title || !desc){
-            alert("Title or Description cannot be Empty")
+           setAlert(true)
         }else{
         addTodo(title,desc);
         setTitle("");
         setDesc("");
+        setAlert(false)
         }
     }
     
   return (
     <div className="container my-3">
         <h3>Add a Todo</h3>
+        {
+            alert && ( <div class="alert alert-danger" role="alert">
+            Title And Description can not be Empty.
+        </div>)
+        }
         <form onSubmit={submit}>
             <div className="mb-3">
                 <label htmlFor="title">Todo Title</label>

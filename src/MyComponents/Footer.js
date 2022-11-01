@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-light py-3" style={footerStyle}>
       <p className ="text-center">
-      Copyright &copy; MyTodosList.com Created by : Yogesh Indoria
+      Copyright &copy; MyTodosList.com  <span className='yogi'>Created by : Yogesh Indoria</span> 
       </p>  
     </footer>
   )

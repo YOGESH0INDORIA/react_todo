@@ -1,11 +1,17 @@
 import React from 'react'
 
+
 const About = () => {
   return (
     <div>
-      This is an about Component
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates est alias nam, cumque doloremque minima blanditiis consequatur consectetur deserunt quae similique doloribus quis error, dolor voluptate repellat neque amet. Nobis temporibus consectetur eaque, porro obcaecati omnis voluptatum officia accusantium itaque repellendus nemo doloribus aut, suscipit placeat facilis ut beatae perferendis! 
+      <h2 className='stylehead'>About This APP</h2>
+      <p className='styleabout'>
+          Hello! everyone , I m Yogesh Who created this TODO APP. <br/>
+          In this APP, we Created a TODO APP Using React Technology. <br />
+          As We all Know That TODO App is used to make list of items we want to do , <br />
+          same this app is doing , so enjoy the App. <br />
+          <br />
+          ThankYou So Much 
       </p>
     </div>
   )
